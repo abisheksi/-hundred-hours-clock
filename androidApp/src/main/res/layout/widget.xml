@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:background="@android:color/transparent">
+
+    <TextView
+            android:id="@+id/clock_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sat, Aug 15 | 87:88"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:fontFamily="sans"
+            android:gravity="center"
+            android:maxLines="1" />
+
+</LinearLayout>
